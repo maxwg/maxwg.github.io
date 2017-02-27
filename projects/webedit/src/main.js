@@ -126,7 +126,7 @@ function initVars() {
 function loadEditorScripts(src){
     loadScripts([
     "https://code.jquery.com/jquery-3.1.1.min.js",
-    "http://cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.6/interact.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.6/interact.min.js",
     "./scripts/hadamard-transform.js",
     "./scripts/kdtree.js",
     "./scripts/flow-graph.js",
