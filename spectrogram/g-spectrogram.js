@@ -228,8 +228,8 @@ var nyquist = context.sampleRate/2;
   },
 
   getFullColor: function(value) {
-    var fromH = 0;
-    var toH = 240;
+    var fromH = 240;
+    var toH = 0;
     var percent = value / 255;
     var delta = percent * (toH - fromH);
     var hue = fromH + delta;
