@@ -228,13 +228,12 @@ var nyquist = context.sampleRate/2;
   },
 
   getFullColor: function(value) {
-    var fromH = 280;
-    var toH = 0;
+    var fromH = 0;
+    var toH = 240;
     var percent = value / 255;
     var delta = percent * (toH - fromH);
     var hue = fromH + delta;
-    console.log('hsl(H, 100%, L%)'.replace(/H/g, hue).replace(/L/g, Math.max(0,100-percent*100)));
-    return 'hsl(H, 100%, L%)'.replace(/H/g, hue).replace(/L/g, Math.max(0,100-percent*100));
+    return 'hsl(H, 100%, L%)'.replace(/H/g, hue).replace(/L/g, Math.max(30,100-percent*100));
   },
   
   logChanged: function() {
