@@ -10,7 +10,7 @@ Polymer('g-spectrogram', {
   ticks: 5,
   speed: 3,
   // FFT bin size,
-  fftsize: 2048,
+  fftsize: 8192,
   oscillator: true,
   color: false,
 
