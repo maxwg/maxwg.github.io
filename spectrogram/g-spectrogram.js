@@ -192,7 +192,7 @@ Polymer('g-spectrogram', {
   },
 
   indexToFreq: function(index) {
-    var nyquist = context.sampleRate/2;
+var nyquist = context.sampleRate/2;
     return nyquist/this.getFFTBinCount() * index;
   },
 
@@ -233,7 +233,7 @@ Polymer('g-spectrogram', {
     var percent = value / 255;
     var delta = percent * (toH - fromH);
     var hue = fromH + delta;
-    return 'hsl(H, 100%, L)'.replace(/H/g, hue).replace(/L/g, max(100,percent*5));
+    return 'hsl(H, 100%, L)'.replace(/H/g, hue).replace(/L/g, Math.max(100,percent*5));
   },
   
   logChanged: function() {
