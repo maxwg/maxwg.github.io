@@ -102,7 +102,7 @@ Polymer('g-spectrogram', {
         value = freq[i];
       }
 
-      ctx.fillStyle = this.getGrayColor(value);
+      ctx.fillStyle = this.getFullColor(value);
 
       var percent = i / freq.length;
       var y = Math.round(percent * this.height);
