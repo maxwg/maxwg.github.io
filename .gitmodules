@@ -1,0 +1,3 @@
+[submodule "spectogram"]
+	path = spectogram
+	url = https://github.com/maxwg/spectrogram.git
