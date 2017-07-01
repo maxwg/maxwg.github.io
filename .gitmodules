@@ -1,3 +1,9 @@
 [submodule "spectogram"]
 	path = spectogram
 	url = https://github.com/maxwg/spectrogram.git
+[submodule "projects/webedit"]
+	path = projects/webedit
+	url = https://github.com/maxwg/webedit.git
+[submodule "projects/honours/presentation"]
+	path = projects/honours/presentation
+	url = https://github.com/maxwg/honours-presentation
