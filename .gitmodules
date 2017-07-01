@@ -4,3 +4,6 @@
 [submodule "projects/honours/presentation"]
 	path = projects/honours/presentation
 	url = https://github.com/maxwg/honours-presentation
+[submodule "spectrogram"]
+	path = spectrogram
+	url = https://github.com/maxwg/spectrogram.git
