@@ -233,7 +233,7 @@ var nyquist = context.sampleRate/2;
     var percent = value / 255;
     var delta = percent * (toH - fromH);
     var hue = fromH + delta;
-    if (percent < 0.03){
+    if (percent < 0.01){
       return '#222'; 
     }
     return 'hsl(H, 100%, 50%)'.replace(/H/g, hue);
